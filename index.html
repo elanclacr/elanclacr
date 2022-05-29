@@ -23,37 +23,11 @@
 </head>
 <script async src="//static.getclicky.com/101365760.js"></script>
 <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101365760ns.gif" /></p></noscript>
-<body>
-  <!-- Messenger plugin del chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your plugin del chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "111666947851888");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v13.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+<body>  <div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat">   </div>
+   <script>     var chatbox = document.getElementById('fb-customer-chat');     chatbox.setAttribute("page_id", "111666947851888");     chatbox.setAttribute("attribution", "biz_inbox");   </script>
+<script>     window.fbAsyncInit = function() {       FB.init({ xfbml: true,  version  : 'v13.0'  });     };
+     (function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';       fjs.parentNode.insertBefore(js, fjs);     }(document, 'script', 'facebook-jssdk'));   </script>
 
 	<script type="text/javascript">
 	document.oncontextmenu = function(){return false;}
@@ -62,26 +36,9 @@
 
 	<header class="header fixed-top" data-scrollto-offset="0" id="header">
 		<div class="container-fluid d-flex align-items-center justify-content-between">
-			<a class="logo d-flex align-items-center scrollto me-auto me-lg-0" href="index.html"><img alt="" class="img-fluid img" src="assets/img/logo.png"></a> 		  <nav id="navbar" class="navbar">
-        <ul>
-
-         
-          <li><a class="nav-link scrollto" href="index.html">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">Servicios</a></li>
-  
-          <li class="dropdown"><a href=""><span>Catálogos disponibles</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-               <li><a href="caballero.html">Caballero</a></li>
-              <li><a href="dama.html">Dama</a></li>
-              <li><a href="interior.html">Ropa Interior</a></li>
-              <li><a href="cuidadopersonal.html">Cuidado personal</a></li>
-			     <li><a href="hogar.html">Hogar</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="https://wa.link/tjl4hf">Contáctenos</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle d-none"></i>
-      </nav><!-- .navbar -->
+			<a class="logo d-flex align-items-center scrollto me-auto me-lg-0" href="index.html"><img alt="" class="img-fluid img" src="assets/img/logo.png"></a> 		  <nav id="navbar" class="navbar">       <ul>
+                 <li><a class="nav-link scrollto" href="index.html">Inicio</a></li>         <li><a class="nav-link scrollto" href="index.html#about">Servicios</a></li>          <li class="dropdown"><a href=""><span>Catálogos disponibles</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>           <ul>              <li><a href="caballero.html">Caballero</a></li>             <li><a href="dama.html">Dama</a></li>             <li><a href="interior.html">Ropa Interior</a></li>             <li><a href="cuidadopersonal.html">Cuidado personal</a></li>
+			     <li><a href="hogar.html">Hogar</a></li>           </ul>         </li>         <li><a class="nav-link scrollto" href="https://wa.link/tjl4hf">Contáctenos</a></li>       </ul>       <i class="bi bi-list mobile-nav-toggle d-none"></i>     </nav><!-- .navbar -->
 		</div>
 	</header>
 
