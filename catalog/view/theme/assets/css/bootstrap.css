@@ -25,6 +25,15 @@ summary {
   display: block;
 }
 
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 audio,
 canvas,
 video {
@@ -41,7 +50,7 @@ audio:not([controls]) {
 }
 
 html {
-  font-family: sans-serif;
+ 
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
