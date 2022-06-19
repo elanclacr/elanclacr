@@ -15,13 +15,13 @@
 	overflow: visible;
 }
 @font-face {
-  font-family: 'Raleway';
-  src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-family: 'Urbanist';
+  src: url('../fonts/Urbanist-VariableFont_wght.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
 }
 *{
-font-family: 'Raleway';  
+font-family: 'Urbanist';  
 
 }
 
